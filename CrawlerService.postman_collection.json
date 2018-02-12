@@ -1,0 +1,44 @@
+{
+	"info": {
+		"name": "CrawlerService",
+		"_postman_id": "24b91fab-5a2a-6848-5e2b-446bf801110b",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CrawlSite",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8080/crawler-service/crawl-site?site_url=http://wiprodigital.com",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"crawler-service",
+						"crawl-site"
+					],
+					"query": [
+						{
+							"key": "site_url",
+							"value": "http://wiprodigital.com",
+							"equals": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
